@@ -28,11 +28,11 @@ Borrowers are tracked using their **name, ID, and year level**, allowing accurat
 
 ## Features
 
-✅ Add and list available books  
-✅ Borrow a book with borrower details (**Name, ID, Year Level**)  
-✅ Return a book using only the borrower’s ID  
-✅ View complete transaction history  
-✅ Automatically save and load records from a JSON file  
+Add and list available books  
+Borrow a book with borrower details (**Name, ID, Year Level**)  
+Return a book using only the borrower’s ID  
+View complete transaction history  
+Automatically save and load records from a JSON file  
 
 ---
 
@@ -42,8 +42,18 @@ Borrowers are tracked using their **name, ID, and year level**, allowing accurat
 2. Run the main program:
    ```bash
    php main.php
+3.Follow the on-screen menu to:
 
-   library-system/
+View books
+Borrow a book
+Return a book
+View transactions
+
+---
+## Project Structure
+
+```bash
+library-system/
 │
 ├── main.php
 ├── transactions.json
@@ -58,4 +68,7 @@ Borrowers are tracked using their **name, ID, and year level**, allowing accurat
         ├── Book.php
         ├── Borrower.php
         └── Transaction.php
+
+
+  
 
