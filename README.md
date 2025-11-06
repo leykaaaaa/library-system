@@ -42,13 +42,6 @@ Automatically save and load records from a JSON file
 2. Run the main program:
    ```bash
    php main.php
-3.Follow the on-screen menu to:
-
-View books
-Borrow a book
-Return a book
-View transactions
-
 ---
 ## Project Structure
 
